@@ -1,0 +1,7 @@
+package likelion.springbootsunny.repository;
+
+import likelion.springbootsunny.domain.Member;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MemberRepository extends JpaRepository<Member, Long> {
+}
